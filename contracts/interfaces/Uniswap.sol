@@ -10,11 +10,11 @@ interface IUniswapV2Router {
     returns (uint[] memory amounts);
 
   function swapExactTokensForTokens(
-    uint amountIn,
-    uint amountOutMin,
+    uint amountIn, // 交易金额
+    uint amountOutMin, // 可接受的最小兑换数量
     address[] calldata path,
-    address to,
-    uint deadline
+    address to, // token发往的地址
+    uint deadline // 交易有效的截止日期
   ) external returns (uint[] memory amounts);
 
   function swapExactTokensForETH(

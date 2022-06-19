@@ -8,7 +8,7 @@ function sendEther(web3, from, to, amount) {
   });
 }
 
-const ZERO_ADDRESS = "0x0000000000000000000000000000000000000000";
+ const ZERO_ADDRESS = "0x0000000000000000000000000000000000000000";
 
 function cast(x) {
   if (x instanceof BN) {

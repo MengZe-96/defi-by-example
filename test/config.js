@@ -6,11 +6,16 @@ const WBTC = "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599"
 
 const WETH_10 = "0xf4BB2e28688e89fCcE3c0580D37d36A7672E8A9F"
 
-const DAI_WHALE = process.env.DAI_WHALE
-const USDC_WHALE = process.env.USDC_WHALE
-const USDT_WHALE = process.env.USDT_WHALE
-const WETH_WHALE = process.env.WETH_WHALE
-const WBTC_WHALE = process.env.WBTC_WHALE
+// const DAI_WHALE = process.env.DAI_WHALE
+// const USDC_WHALE = process.env.USDC_WHALE
+// const USDT_WHALE = process.env.USDT_WHALE
+// const WETH_WHALE = process.env.WETH_WHALE
+// const WBTC_WHALE = process.env.WBTC_WHALE
+const WETH_WHALE = "0x0548f59fee79f8832c299e01dca5c76f034f558e"
+const DAI_WHALE = "0x0548f59fee79f8832c299e01dca5c76f034f558e"
+const USDC_WHALE = "0x0548f59fee79f8832c299e01dca5c76f034f558e"
+const USDT_WHALE = "0x0548f59fee79f8832c299e01dca5c76f034f558e"
+const WBTC_WHALE = "0xF977814e90dA44bFA03b6295A0616a897441aceC"
 
 // compound
 const CDAI = "0x5d3a536E4D6DbD6114cc1Ead35777bAB948E3643"
